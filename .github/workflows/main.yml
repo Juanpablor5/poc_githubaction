@@ -20,4 +20,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: mmoralesleal/test_poc_github:${{ github.sha }}.latest
+        tags: juanpablor5/poc_githubactions:${{ github.sha }}.latest
