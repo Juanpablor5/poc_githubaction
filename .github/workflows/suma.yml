@@ -12,7 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - run: |
+      - run:
+          htop
           npm install jest
           npm test
           npm run build
